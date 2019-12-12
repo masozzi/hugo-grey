@@ -6,6 +6,8 @@
 	--color-bg-lighten: hsla(0, 0%, 30%, 1);
 	--color-bg-darken: hsla(0, 0%, 08%, 1);
 
+	--margin: 20px;
+
 	--padding: 20px;
 	--padding-inner: 5px;
 }
@@ -57,6 +59,14 @@ header div nav a.menu-item
 {
 	padding: var(--padding-inner) calc(var(--padding-inner) * 2);
 	text-decoration: none;
+}
+
+/*
+ * main
+ */
+main
+{
+	margin: var(--margin) 0;
 }
 
 /*
