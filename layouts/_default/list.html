@@ -1,0 +1,13 @@
+{{ define "main" }}
+		{{ range .Pages }}
+			<div>
+				<a href="{{ .Permalink }}">
+					{{ .Title }}
+				</a>
+			</div>
+		{{ else }}
+			<div class="text-semi-transparent">
+				No content yet!
+			</div>
+		{{ end }}
+{{ end }}

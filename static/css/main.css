@@ -1,0 +1,142 @@
+:root
+{
+	--color: hsla(0, 7%, 74%, 1);
+	--color-transparent: hsla(0, 7%, 74%, 0.5);
+	--color-bg: hsla(0, 0%, 10%, 1);
+	--color-bg-lighten: hsla(0, 0%, 30%, 1);
+	--color-bg-darken: hsla(0, 0%, 08%, 1);
+
+	--padding: 20px;
+	--padding-inner: 5px;
+}
+
+@font-face
+{
+	font-family: 'Fira Mono';
+	src: url('/fonts/FiraMono-Regular.ttf');
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Fira Mono';
+	color: var(--color);
+	background-color: var(--color-bg);
+}
+
+/*
+ * Header
+ */
+header
+{
+	padding: var(--padding);
+
+	background-color: var(--color-bg-darken);
+}
+
+header div.container
+{
+	display: flex;
+}
+
+header div div
+{
+	padding: var(--padding-inner);
+}
+
+header div nav
+{
+	display: flex;
+	justify-content: flex-end;
+	flex: auto;
+}
+
+header div nav a.menu-item
+{
+	padding: var(--padding-inner) calc(var(--padding-inner) * 2);
+	text-decoration: none;
+}
+
+/*
+ * Footer
+ */
+footer
+{
+	padding: var(--padding);
+
+	background-color: var(--color-bg-darken);
+}
+
+/*
+ * General
+ */
+a
+{
+	color: var(--color);
+	text-decoration: underline;
+}
+
+/*
+ * Utils
+ */
+.font-bold
+{
+	font-weight: bold;
+}
+
+.text-decoration-none
+{
+	text-decoration: none;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.text-right
+{
+	text-align: right;
+}
+
+.text-semi-transparent
+{
+	color = var(--color-transparent);
+}
+
+/*
+ * Grid
+ */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
