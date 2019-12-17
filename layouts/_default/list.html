@@ -1,13 +1,24 @@
 {{ define "main" }}
-		{{ range .Pages }}
-			<div>
-				<a href="{{ .Permalink }}">
-					{{ .Title }}
-				</a>
+	{{ range .Pages }}
+		<div class="row">
+			<div class="col-12">
+				<article>
+					<h2>
+						<a href="{{ .Permalink }}">
+							{{ .Title }}
+						</a>
+					</h2>
+					<p>
+						{{ .Summary }}
+					</p>
+				</article>
 			</div>
-		{{ else }}
-			<div class="text-semi-transparent">
+		</div>
+	{{ else }}
+		<div class="row">
+			<div class="col-12 text-semi-transparent">
 				No content yet!
 			</div>
-		{{ end }}
+		</div>
+	{{ end }}
 {{ end }}
