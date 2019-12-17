@@ -1,6 +1,10 @@
 {{ define "main" }}
-	<article>
-		<h1>{{ .Page.Title }}</h1>
-		<div class="content">{{ .Page.Content }}</div>
-	</article>
+	<div class="row">
+		<div class="col-12">
+			<article>
+				<h1>{{ .Page.Title }}</h1>
+				<div class="content">{{ .Page.Content }}</div>
+			</article>
+		</div>
+	</div>
 {{ end }}
