@@ -60,6 +60,7 @@ a
 {
 	color: var(--color);
 	text-decoration: underline;
+	cursor: pointer;
 }
 
 /*
