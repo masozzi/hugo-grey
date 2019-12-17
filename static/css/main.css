@@ -38,26 +38,8 @@ header
 	background-color: var(--color-bg-darken);
 }
 
-header div.container
+header nav a.menu-item
 {
-	display: flex;
-}
-
-header div div
-{
-	padding: var(--padding-inner);
-}
-
-header div nav
-{
-	display: flex;
-	justify-content: flex-end;
-	flex: auto;
-}
-
-header div nav a.menu-item
-{
-	padding: var(--padding-inner) calc(var(--padding-inner) * 2);
 	text-decoration: none;
 }
 
