@@ -44,14 +44,6 @@ header nav a.menu-item
 }
 
 /*
- * main
- */
-main
-{
-	margin: var(--margin) 0;
-}
-
-/*
  * Footer
  */
 footer
