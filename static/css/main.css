@@ -24,6 +24,7 @@ body
 	padding: 0;
 
 	font-family: 'Fira Mono';
+	font-size: 1rem;
 	color: var(--color);
 	background-color: var(--color-bg);
 }
@@ -96,5 +97,32 @@ a
 
 .text-semi-transparent
 {
-	color = var(--color-transparent);
+	color: var(--color-transparent);
+}
+
+/*
+ * Media
+ */
+@media (min-width: 576px) {
+  body {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    font-size: 2.0rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    font-size: 1.0rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.0rem;
+  }
 }
