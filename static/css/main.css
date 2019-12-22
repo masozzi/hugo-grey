@@ -54,6 +54,14 @@ footer
 }
 
 /*
+ * Main
+ */
+main
+{
+	padding: var(--padding);
+}
+
+/*
  * General
  */
 a
