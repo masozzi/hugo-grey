@@ -161,9 +161,9 @@ p code
  */
 /* sm */
 @media (min-width: 576px) {
-  body {
-    font-size: 2.1rem;
-  }
+	body {
+		font-size: 2.1rem;
+	}
 
 	header .col-md-12
 	{
@@ -178,9 +178,9 @@ p code
 
 /* md */
 @media (min-width: 768px) {
-  body {
-    font-size: 2.0rem;
-  }
+	body {
+		font-size: 2.0rem;
+	}
 
 	header .col-md-12
 	{
@@ -195,9 +195,9 @@ p code
 
 /* lg */
 @media (min-width: 992px) {
-  body {
-    font-size: 1.0rem;
-  }
+	body {
+		font-size: 1.0rem;
+	}
 
 	header .col-md-12
 	{
@@ -213,9 +213,9 @@ p code
 
 /* xl */
 @media (min-width: 1200px) {
-  body {
-    font-size: 1.0rem;
-  }
+	body {
+		font-size: 1.0rem;
+	}
 
 	header .col-md-12
 	{
