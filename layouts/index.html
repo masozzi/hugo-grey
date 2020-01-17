@@ -1,3 +1,15 @@
 {{ define "main" }}
-<h1>Hello, There!</h1>
+<h1>Latest blog post</h1>
+	{{ range first 1 .Site.RegularPages }}
+		<article>
+			<h2>
+				<a href="{{ .Permalink }}">
+					{{ .Title }}
+				</a>
+			</h2>
+			<p>
+				{{ .Summary }}
+			</p>
+		</article>
+	{{ end }}
 {{ end }}
