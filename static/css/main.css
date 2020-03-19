@@ -120,6 +120,14 @@ h6
 	font-weight: bold;
 }
 
+hr
+{
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid var(--color-bg-lighten);
+	border-left: 0;
+}
+
 p code
 {
 	padding: 0px 0.5em;
